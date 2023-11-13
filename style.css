@@ -298,8 +298,8 @@ img {
 .skills-content p {
   font-size: 1.2rem;
   color: #f0f0e6;
-  padding: 0 2.3rem;
-  text-align: center;
+  
+  
 }
 
 
@@ -311,7 +311,7 @@ img {
 
 .skills-content .left-content {
   flex-basis: 45%;
-  text-align: center;
+ 
 }
 
 .skills-content .right-content {
@@ -368,17 +368,38 @@ img {
   width: 85%;
 }
 .progress-line .css {
-  width: 70%;
+  width: 72%;
 }
 .progress-line .bootstrap {
-  width: 65%;
+  width: 71%;
 }
 .progress-line .java {
-  width: 55%;
+  width: 70%;
 }
 .progress-line .database {
-  width: 60%;
+  width: 80%;
 }
+
+
+
+.progress-line .frontend {
+  width: 85%;
+}
+.progress-line .prototyping {
+  width: 70%;
+}
+.progress-line .projectmanagement {
+  width: 75%;
+}
+.progress-line .javascript {
+  width: 70%;
+}
+.progress-line .webdevelopment {
+  width: 73%;
+}
+
+
+
 
 .bar .progress-line span::before {
   position: absolute;
@@ -409,17 +430,36 @@ img {
   content: "85%";
 }
 .progress-line .css::after {
-  content: "70%";
+  content: "72%";
 }
 .progress-line .bootstrap::after {
-  content: "65%";
+  content: "71%";
 }
 .progress-line .java::after {
-  content: "55%";
+  content: "70%";
 }
 .progress-line .database::after {
-  content: "60%";
+  content: "80%";
 }
+
+
+.progress-line .frontend::after {
+  content: "85%";
+}
+.progress-line .prototyping::after {
+  content: "70%";
+}
+.progress-line .projectmanagement::after {
+  content: "75%";
+}
+.progress-line .javascript::after {
+  content: "70%";
+}
+.progress-line .webdevelopment::after {
+  content: "73%";
+}
+
+
 
 
 /* ////......Media query for skills......//// */
@@ -429,7 +469,7 @@ img {
   }
   .skills-content .left-content {
     flex-basis: 100%;
-    text-align: center;
+    
   }
   .skills-content .right-content {
     flex-basis: 100%;
@@ -452,7 +492,7 @@ img {
   }
   .skills-content .left-content {
     flex-basis: 100%;
-    text-align: center;
+    
   }
   .skills-content .right-content {
     flex-basis: 100%;
@@ -474,7 +514,7 @@ img {
     }
     .skills-content .left-content {
       flex-basis: 100%;
-      text-align: center;
+     
     }
     .skills-content .right-content {
       flex-basis: 100%;
