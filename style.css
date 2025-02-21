@@ -248,9 +248,7 @@ img {
   padding-top: 3rem;
 }
 
-.title {
-  font-size: 2.5rem;
-}
+
 
 .hero-description {
   opacity: 0.7;
@@ -370,10 +368,10 @@ img {
 .progress-line .css {
   width: 72%;
 }
-.progress-line .bootstrap {
+.progress-line .vuejs {
   width: 71%;
 }
-.progress-line .java {
+.progress-line .strapi {
   width: 70%;
 }
 .progress-line .database {
@@ -388,7 +386,7 @@ img {
 .progress-line .prototyping {
   width: 70%;
 }
-.progress-line .projectmanagement {
+.progress-line .api-integration {
   width: 75%;
 }
 .progress-line .javascript {
@@ -432,10 +430,10 @@ img {
 .progress-line .css::after {
   content: "72%";
 }
-.progress-line .bootstrap::after {
+.progress-line .vuejs::after {
   content: "71%";
 }
-.progress-line .java::after {
+.progress-line .strapi::after {
   content: "70%";
 }
 .progress-line .database::after {
@@ -449,7 +447,7 @@ img {
 .progress-line .prototyping::after {
   content: "70%";
 }
-.progress-line .projectmanagement::after {
+.progress-line .api-integration::after {
   content: "75%";
 }
 .progress-line .javascript::after {
@@ -603,7 +601,7 @@ textarea {
   }
 
   .title {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 
   /* About */
