@@ -19,19 +19,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
-
-   
-  
-    
-
   </head>
-   
 
-  </head>
   <body>
-    
-
-
     <!-- Move to up button -->
     <div class="scroll-button">
       <a href="#home"><i class="fas fa-arrow-up"></i></a>
@@ -46,6 +36,7 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
           <div class="cancel-btn">
             <i class="fas fa-times"></i>
@@ -66,47 +57,33 @@
 
     <section class="hero container" id="home">
       <div class="hero-info">
-      <!--<h1 class="title">Nway 
-        <span class="highlighted">Nandar</span> 
-        Lin</h1>-->
-       <!--  <h1 class="title">Nway
-          <span class="highlighted" style="--i:1">N</span> 
-          <span class="highlighted" style="--i:2">a</span>
-          <span class="highlighted" style="--i:3">n</span>
-          <span class="highlighted" style="--i:4">d</span>
-          <span class="highlighted" style="--i:5">a</span>
-          <span class="highlighted" style="--i:6">r</span>
-          Lin</h1>-->
-          <h1 class="title">
-          <span style="--i:1">N</span>
-          <span style="--i:2">w</span>
-          <span style="--i:3">a</span>
-          <span style="--i:4">y</span>
-          <span class="highlighted" style="--i:5">N</span>
-          <span class="highlighted" style="--i:6">a</span>
-          <span class="highlighted" style="--i:7">n</span>
-          <span class="highlighted" style="--i:8">d</span> 
-          <span class="highlighted" style="--i:9">a</span> 
-          <span class="highlighted" style="--i:10">r</span> 
-          <span style="--i:11">L</span> 
-          <span style="--i:12">i</span> 
-          <span style="--i:13">n</span>
+          <h1 class="hero-title">
+          <span>N</span>
+          <span>w</span>
+          <span>a</span>
+          <span>y</span>
+          <span class="highlighted">N</span>
+          <span class="highlighted">a</span>
+          <span class="highlighted">n</span>
+          <span class="highlighted">d</span> 
+          <span class="highlighted">a</span> 
+          <span class="highlighted">r</span> 
+          <span>L</span> 
+          <span>i</span> 
+          <span>n</span>
           </h1> 
-  
-             
-     
        <p class="hero-description">IT student of the Lithan University</p>
        <a href="#about" class="btn hero-btn">About</a>
      </div>
 
      <div class="hero-img">
-       <img src="pic1.PNG" alt="Oliver Queen" />
+       <img src="images/pic1.PNG" alt="Oliver Queen" />
      </div>
 </section>
 
 <section class="about container" id="about">
   <div class="about-img">
-    <img src="pic2.PNG" alt="Oliver Queen" />
+    <img src="images/pic2.PNG" alt="Oliver Queen" />
   </div>
 
   <div class="about-info">
@@ -128,67 +105,44 @@
       The following are my personal information for you to know more about me.
       You will know me better if you check out these CV.
     </p>
-
-
- <!--<a href="https://educlaasglobal-my.sharepoint.com/personal/smps-ls05633_learning_educlaas_com/Documents/Nway%20Nandar%20Lin%202.pdf" target="_blank" class="btn btn-secondery">Resume</a>-->
- <!--<button class="btn btn-secondery" target="_blank" onclick="window.open('./Nway Nandar Lin 2.pdf')">
-  Resume
-</button>-->
-<a class="btn btn-secondery" target="_blank" onclick="window.open('./Nway Nandar Lin.pdf')">Resume</a>
-
-
-
+<a class="btn btn-about" target="_blank" onclick="window.open('./Nway Nandar Lin.pdf')">Resume</a>
   </div>
 </section>
 
 
 <section class="skills container" id="skills">
-  <br><br>
-  <h2 class="secondery-title">My Skills</h2>
+  <h2 class="secondery-title skill-heading">My Skills</h2>
   
-    <div class="skills-content">
-      <p>These are my skills in the IT field which are necessary to use within 
+    <div>
+      <p class="description">These are my skills in the IT field which are necessary to use within 
         techanical development! In this section, 
         I've described 10 best IT skills of me which I've learned from Lithan educlaas and my previous Company.
         I can do JavaScript, CSS and Vuetify well since I have working experience in it. I can also do Prototyping, Vue.js, API Integration, Strapi and
         and Database. Also, I have improved in the following skills like Adaptability, Communication, Problem-Solving & Analytical Thinking from my previous internship.</p>
-  <!--<div class="left-content">
- <br><br><br>
-   <h3>Some of my IT skills!</h3>
-   <br>
-   <p>These are my skills in the IT field which are necessary to use within 
-    techanical development! In this section, 
-    I've described 5 best IT skills of me which I've learned from Lithan educlaas!
-    I can do HTML, CSS and Bootstrap well and I'm so much interested in Java 
-    and Database and trying to improve it!</p>
-  </div>-->
-
-  <div class="skill">
-    <div class="left-content">
-     
+  <div class="skills-wrapper"> 
       <div class="skills-bar">
         <div class="bar">
-          <div class="info">
+          <div class="description">
             <span>Front End Web Development</span>
           </div>
           <div class="progress-line"><span class="frontend"></span></div>
           <div class="bar">
-            <div class="info">
+            <div class="description">
               <span>Prototyping</span>
             </div>
             <div class="progress-line"><span class="prototyping"></span></div>
             <div class="bar">
-              <div class="info">
+              <div class="description">
                 <span>API Integration</span>
               </div>
               <div class="progress-line"><span class="api-integration"></span></div>
               <div class="bar">
-                <div class="info">
+                <div class="description">
                   <span>JavaScript</span>
                 </div>
                 <div class="progress-line"><span class="javascript"></span></div>
                 <div class="bar">
-                  <div class="info">
+                  <div class="description">
                     <span>Website Development</span>
                   </div>
                   <div class="progress-line"><span class="webdevelopment"></span></div>
@@ -198,36 +152,30 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-
-<div class="skill">
-  <div class="right-content">
-   
     <div class="skills-bar">
       <div class="bar">
-        <div class="info">
+        <div class="description">
           <span>HTML</span>
         </div>
         <div class="progress-line"><span class="html"></span></div>
         <div class="bar">
-          <div class="info">
+          <div class="description">
             <span>CSS</span>
           </div>
           <div class="progress-line"><span class="css"></span></div>
           <div class="bar">
-            <div class="info">
+            <div class="description">
               <span>Vue.js</span>
             </div>
             <div class="progress-line"><span class="vuejs"></span></div>
             <div class="bar">
-              <div class="info">
+              <div class="description">
                 <span>Strapi</span>
               </div>
               <div class="progress-line"><span class="strapi"></span></div>
               <div class="bar">
-                <div class="info">
+                <div class="description">
                   <span>Database</span>
                 </div>
                 <div class="progress-line"><span class="database"></span></div>
@@ -237,44 +185,9 @@
         </div>
       </div>
     </div>
-  </div>
 </div>
 </div>
 </section>
-
-<!--Section 5: Education-->
-<!--<section class="resume container" id="resume">
-  <br><br>
-  <h2 class="secondery-title">Resume</h2> 
-  
-     <div class="resume-info">
-      <h3 class="resume-title">Education</h3>
-      <div class="resume-item">
-        <h4>International Relations / Yadanarbon University</h4>
-        <h5>2020 - 2021</h5>
-        <p><em>I've finished my high school and joined to University with International Relations major at first year. But, because of covid 19 and my country situation, I can't attend my school till today. But I've a plan to join my University again after I've finished at Lithan University.</em></p>
-      </div>
-      <div class="resume-item">
-        <h4>Information Technology / Lithan University</h4>
-        <h5>2021 - 2023</h5>
-        <p><em>I've joined to Lithan with IT and I've there about 1 year and 9 month. I've learned about IT from 14 modules and Now, I'm currently joining DEA (Application Development) module.</em></p>
-      </div>
-  
-   <h3 class="resume-title">Links</h3>
-      <div class="resume-item">
-        <h4>VIDEO INTRODUCTION</h4>
-        <a href="https://www.linkedin.com/posts/nway-nandar-lin-24741921a_sample-intro-video-for-my-portfolio-website-activity-7117107038710562816-IBS4?utm_source=share&utm_medium=member_desktop">Nway Nandar Lin Video Intro</a>
-      </div>
-      <div class="resume-item">
-        <h4>PORTFOLIO</h4>
-        <a href="#portfolio">Nway Nandar Lin Portfolio</a>
-      </div>
-      <div class="resume-item">
-        <h4>LINKEDIN</h4>
-        <a href="https://www.linkedin.com/in/nway-nandar-lin-24741921a/">Nway Nanar Lin LinkedIn</a>
-      </div>
-       </div>
-</section>-->
 
 
 <!--Section: Education-->
@@ -288,14 +201,14 @@
       <div class="education-item">
         <h4>International Relations / Yadanarbon University</h4>
         <h5>2020 - 2021</h5>
-        <p>I've finished my high school and joined to University with International Relations major at first year. 
+        <p class="edu-exp">I've finished my high school and joined to University with International Relations major at first year. 
           But, because of covid 19 and my country situation, I can't attend my school till today. 
           But I've a plan to join my University again after I've finished at Lithan University.</p>
     </div>
     <div class="education-item">
       <h4>Information Technology / Lithan University</h4>
       <h5>2021 - 2025 (Present)</h5>
-      <p>I've joined to Lithan with IT and I've been there about 3 years. I've learned about IT from 20 modules and Currently, I'm joining DSE (Data Science Essentials) and PRP (Professional Practice) modules.</p>
+      <p class="edu-exp">I've joined to Lithan with IT and I've been there about 3 years. I've learned about IT from 20 modules and Currently, I'm joining DSE (Data Science Essentials) and PRP (Professional Practice) modules.</p>
     </div>
   </div>
     </article>
@@ -304,9 +217,9 @@
       <div class="education-info">
         <h3 class="education-title">Learning Journey</h3>
         <div class="education-item pb-0">
-          <p>I've finished IT foundations courses in 2022 and the followings are some of the courses that I've learned in 2023, 2024 and 2025 (current).</p>
+          <p class="edu-exp">I've finished IT foundations courses in 2022 and the followings are some of the courses that I've learned in 2023, 2024 and 2025 (current).</p>
            <p>
-            <ul>
+            <ul class="edu-exp">
               <li>
                 Programming Foundations
               </li>
@@ -361,169 +274,117 @@
   </div>
 </section>
 
-
-
-
-
 <!--Section: Portfolio-->
-
-<section class="portfolio container" id="portfolio">
-  <br><br>
-  <h2 class="secondery-title">Portfolio</h2>
-
+<section class="container" id="portfolio">
+  <h2 class="secondery-title portfolio">Portfolio</h2>
   <div class="main">
-    
-    
     <div class="card">
       <a href="https://nway-2003.github.io/DoBu-Martial-Arts/" target="_blank">
           <div class="post">
-      <img class="post-image" src="pic4.PNG"/>
+      <img class="post-image" src="images/pic4.PNG"/>
       
       <div class="post-content">
         <p class="post-header">Do Bu Martial Arts</p>
+        <p class="post-subheader">Web Development</p>
+        <p class="post-subtext">
+          Tool: VisualStudioCode
+        </p>
         <p class="post-text">
           I've developed a Do Bu Martial Arts website for a training organization in FED module.
-          <br>Tool: VisualStudioCode
-        </p>
-        <div class="author">
-          <div class="author-content">
-            <p class="author-name">Web Development</p>
-            
-          </div>
-        </div>
+        </p> 
       </div>
       
     </div>
   </a>
   </div>
-
-
-
-
 
   <div class="card">
     <a href="https://nway-2003.github.io/nwaynandarlinInABox.github.io/" target="_blank">
     <div class="post">
-      <img class="post-image" src="pic5.PNG"/>
+      <img class="post-image" src="images/pic5.PNG"/>
       
       <div class="post-content">
         <p class="post-header">In A Box</p>
+        <p class="post-subheader">Web Development</p>
+        <p class="post-subtext">
+          Tool: Nodepad++
+        </p>
         <p class="post-text">
           In WSP module, I've developed a food delivery website for "In A Box" company.
-          <br>Tool: Nodepad++
         </p>
-        <div class="author">
-          
-          <div class="author-content">
-            <p class="author-name">Web Development</p>
-            
-          </div>
-        </div>
       </div>
       
     </div>
   </a>
   </div>
-
-
 
   <div class="card">
     <a href="https://nway-2003.github.io/ABC-Learning-Center/" target="_blank">
     <div class="post">
-      <img class="post-image" src="abc.PNG"/>
+      <img class="post-image" src="images/abc.PNG"/>
       
       <div class="post-content">
         <p class="post-header">ABC Learning Center</p>
-     
+        <p class="post-subheader">Web Development</p>
+        <p class="post-subtext">
+          Tool: VisualStudioCode
+           </p>
         <p class="post-text">
           I've designed and developed a Website for ABC Learning Center in FED module!
-          <br>Tool: VisualStudioCode
            </p>
-      
-        <div class="author">
-           <div class="author-content">
-            <p class="author-name">Web Development</p>
-          </div>
-        </div>
       </div>
       
     </div>
   </a>
   </div>
-
 </div>
-
 
 <div class="main">
-  
   <div class="card">
   <div class="post">
-    <img class="post-image" src="pic10.PNG"/>
-    
+    <img class="post-image" src="images/pic10.PNG"/>
     <div class="post-content">
       <p class="post-header">Know-Your-Neighborhood App</p>
+      <p class="post-subheader">API Integration</p>
+      <p class="post-subtext">
+        Tools: VisualStudioCode (React), Eclipse
+      </p>
       <p class="post-text">
         In API module, I've implement an API integration on existing Know-Your-Neighborhood Application.
-        <br>Tools: VisualStudioCode (React), Eclipse
-        
       </p>
-      <div class="author">
-        <div class="author-content">
-          <p class="author-name">API Integration</p>
-          
-        </div>
-      </div>
     </div>
-    
   </div>
 </div>
 
-
-
 <div class="card">
   <div class="post">
-    <img class="post-image" src="pic8.PNG"/>
-    
+    <img class="post-image" src="images/pic8.PNG"/>
     <div class="post-content">
       <p class="post-header">Ecommerce Website</p>
+      <p class="post-subheader">App Development</p>
+      <p class="post-subtext">
+        Tools: Liferay Developer, MySQL
+       </p>
       <p class="post-text">
         In WFS module, I've created a liferay ecommerce website for our project.
-        <br>
-        Tools: Liferay Developer, MySQL
       </p>
-      <div class="author">
-        
-        <div class="author-content">
-          <p class="author-name">App Development</p>
-          
-        </div>
-      </div>
     </div>
-    
   </div>
 </div>
 
-
-
 <div class="card">
   <div class="post">
-    <img class="post-image" src="pic9.PNG"/>
-    
+    <img class="post-image" src="images/pic9.PNG"/>
     <div class="post-content">
       <p class="post-header">Used Car Sales Portal</p>
-      <p class="post-text">
-        In ADP module, I've made a risk based testing for Used Car Sales Portal
-        <br>
+      <p class="post-subheader">Risk Based Test</p>
+      <p class="post-subtext">
         Tools: Eclipse (Spring Boot)
       </p>
-      <div class="author">
-        
-        <div class="author-content">
-          <p class="author-name">Risk Based Test</p>
-        </div>
+      <p class="post-text">
+        In ADP module, I've made a risk based testing for Used Car Sales Portal
+      </p>
       </div>
-    </div>
-    
   </div>
 </div>
 </a></div>
@@ -531,77 +392,276 @@
 <div class="main">
   <div class="card">
   <div class="post">
-    <img class="post-image" src="uif.PNG"/>
-    
+    <img class="post-image" src="images/uif.PNG"/>
     <div class="post-content">
       <p class="post-header">Boutiqa</p>
-      <p class="post-text">
-        I've developed a prototype design to deliver a rich internet app for Boutiqa web.
-        <br>
+      <p class="post-subheader">Prototyping</p>
+      <p class="post-subtext">
         Tools: Axure
       </p>
-      <div class="author">
-        <div class="author-content">
-          <p class="author-name">Prototyping</p>
-          
-        </div>
-      </div>
+      <p class="post-text">
+        I've developed a prototype design to deliver a rich internet app for Boutiqa web.
+      </p>
     </div>
-    
   </div>
 </div>
 
-
-
 <div class="card">
   <div class="post">
-    <img class="post-image" src="mad.PNG"/>
-    
+    <img class="post-image" src="images/mad.PNG"/>
     <div class="post-content">
       <p class="post-header">Maths Quiz Game</p>
-      <p class="post-text">
-        In MAD module, I've developed a maths quiz game mobile app.
-        <br>
+      <p class="post-subheader">Mobile App</p>
+      <p class="post-subtext">
         Tools: Andriod Studio
       </p>
-      <div class="author">
-        
-        <div class="author-content">
-          <p class="author-name">Mobile APP</p>
-          
-        </div>
-      </div>
+      <p class="post-text">
+        In MAD module, I've developed a maths quiz game mobile app.
+      </p>
     </div>
-    
   </div>
 </div>
 
-
 <div class="card">
   <div class="post">
-    <img class="post-image" src="wfs1.PNG"/>
-    
+    <img class="post-image" src="images/wfs1.PNG"/>
     <div class="post-content">
       <p class="post-header">Online News Portal</p>
-      <p class="post-text">
-        In WFS module, I've build a simple site by creating content and dynamic functionality in pages.
-        <br>
+      <p class="post-subheader">Creating News Portal</p>
+      <p class="post-subtext">
         Tools: Liferay Developer, MySQL
       </p>
-      <div class="author">
-        
-        <div class="author-content">
-          <p class="author-name">OnlineNewsPortal</p>
-        </div>
-      </div>
+      <p class="post-text">
+        In WFS module, I've build a simple site by creating content and dynamic functionality in pages.
+      </p>
     </div>
-    
   </div>
+</div>
+</div>
+
+<div class="main">
+  <div class="card">
+    <a href="https://compareip.sg/newsAndArticles" target="_blank">
+        <div class="post">
+    <img class="post-image" src="images/dgn1.jpg"/>
+    <div class="post-content">
+      <p class="post-header">News & Article Page</p>
+      <p class="post-subheader">Creating Website Page & UI Fixes</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (Vue3, Vuetify3, JavaScript, CSS)
+       </p>
+      <p class="post-text">
+        During my internship at DigitalNext, I've created a Blog Page in CompareIP website and have done UI fixes.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://compareip.sg/premiumCompare" target="_blank">
+  <div class="post">
+    <img class="post-image" src="images/dgn2.jpg"/>
+    <div class="post-content">
+      <p class="post-header">Premium Compare Page</p>
+      <p class="post-subheader">UI Fixes</p>
+      <p class="post-subtext">Tool: VisualStudioCode (Vue3, Vuetify3, JavaScript, CSS)</p>
+      <p class="post-text">
+        During my internship, I've made some UI fixes an stopped hiding the title panel for user friendliness.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://compareip.sg/myprofile" target="_blank">
+  <div class="post">
+    <img class="post-image" src="images/dgn3.jpg"/>
+    <div class="post-content">
+      <p class="post-header">My Profile Page</p>
+      <p class="post-subheader">Adding Conditional Messages</p>
+      <p class="post-subtext">Tool: VisualStudioCode (Vue3, Vuetify3, JavaScript, CSS)</p>
+      <p class="post-text">
+        During my internship, I've added condition message on line chart and pie chart base on the plan and ridder selections.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+</div>
+
+<div class="main">
+  <div class="card">
+    <a href="https://compareip.sg/myprofile" target="_blank">
+        <div class="post">
+    <img class="post-image" src="images/dgn4.jpg"/>
+    <div class="post-content">
+      <p class="post-header">My Profile Page</p>
+      <p class="post-subheader">Adding conditions to the table</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (Vue3, Vuetify3, JavaScript, CSS)
+       </p>
+      <p class="post-text">
+        During my internship, I've shown N/A or 0.00 in the table of MyProfile Page base on our selections.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://compareip.sg/newsAndArticles" target="_blank">
+  <div class="post">
+    <img class="post-image" src="images/dgn5.jpg"/>
+    <div class="post-content">
+      <p class="post-header">News & Article Page</p>
+      <p class="post-subheader">API Integration</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (Strapi, JavaScript, APIs)
+      </p>
+      <p class="post-text">
+        During my internship, I've connected the Blog Page frontend with the Strapi backend using APIs.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://compareip.sg/newsAndArticles" target="_blank">
+  <div class="post">
+    <img class="post-image" src="images/dgn6.jpg"/>
+    <div class="post-content">
+      <p class="post-header">News & Article Page</p>
+      <p class="post-subheader">API Integration</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (Strapi, JavaScript, APIs)
+       </p>
+      <p class="post-text">
+        During my internship, I've done like and comment functions for Blog Page by using APIs.
+      </p>
+    </div> 
+  </div>
+</a>
+</div>
+</div>
+
+<div class="main">
+  <div class="card">
+    <a href="https://compareip.sg/newsAndArticles" target="_blank">
+    <div>
+    <img class="post-image" src="images/dgn7.jpg"/>
+    <div class="post-content">
+      <p class="post-header">News & Article Page</p>
+      <p class="post-subheader">Filtering, Searching and Sorting</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (APIs, JavaScript)
+      </p>
+      <p class="post-text">
+        During my internship, I've added filtering, searching and sorting functions for the page.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://compareip.sg/" target="_blank">
+  <div class="post">
+    <img class="post-image" src="images/dgn8.jpg"/>
+    <div class="post-content">
+      <p class="post-header">Website Banner</p>
+      <p class="post-subheader">Creating Website Banner</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (Vue3, Vuetify3, APIs, JavaScript, CSS)
+      </p>
+      <p class="post-text">
+        During my internship, I've worked on creating banner notification bar for the website.
+      </p>
+    </div>
+  </div>
+</a>
+</div>
+
+<div class="card">
+  <a href="https://compareip.sg/" target="_blank">
+  <div class="post">
+    <img class="post-image" src="images/dgn9.jpg"/>
+    <div class="post-content">
+      <p class="post-header">Insureds Page</p>
+      <p class="post-subheader">Creating Table UI</p>
+      <p class="post-subtext">
+        Tool: VisualStudioCode (Vue3, Vuetify3, JavaScript, CSS)
+       </p>
+      <p class="post-text">
+        I've created table UI base on the prototype and have made the table columns to be able to search, filter and sort.
+         </p>
+    </div>
+  </div>
+</a>
 </div>
 </div>
  </section>
 
 
+ <!--Section: Experience-->
+<section class="experience container" id="experience">
+  <h2 class="secondery-title exp-heading">Experience</h2>
+    <article class="experience-content">
+      <div class="experience-info">
+      <h3 class="experience-title">Companies</h3>
+      <div class="experience-item">
+        <h4>Engiselle</h4>
+        <h5>April 17, 2024 – May 17, 2024</h5>
+        <p class="edu-exp">I have done a work trial at Engiselle company by using Next.js, Node.js and React. </p>
+          <p class="edu-exp">My tasks are related with...</p>
+          <ul class="edu-exp">
+          <li>
+          running website’s frontend and backend, 
+        </li>
+        <li>
+          data migrations to import tables into database, 
+        </li>
+        <li>
+          inserting data into tables, logging in as “admin”
+        </li>
+        <li>
+          and creating delivery plans.
+        </li>
+        </ul>  
+    </div>
+    <div class="experience-item">
+      <h4>DigitalNext</h4>
+      <h5>August 26, 2024 - January 31, 2025</h5>
+      <p class="edu-exp">I have 5 month working experience with DigitalNext, Singapore Company.</p>
+       <p class="edu-exp">At DigitalNext, I have to do the project by using Vue3, Vuetify3, JavaScript, HTML, CSS, Node.js, Strapi, API Integration.</p>
+       <p class="edu-exp">My tasks are related with…</p>
+        <ul class="edu-exp">
+        <li>
+        Developing frontend pages
+      </li>
+      <li>
+        Fixing UI
+      </li>
+      <li>
+        Connecting frontend with Strapi Backend
+      </li>
+      <li>
+        Do sorting, filtering, searching using APIs
+      </li>
+      <li>
+        Making to be able to like and comment and trying any other functions when log into the Blog Page
+      </li>
+      <li>
+        Creating tables in website page and developing different features.
+      </li>
+      </ul>
+      <a class="btn btn-exp" target="_blank" onclick="window.open('./Internship Testimonial - Nway Nandar Lin.pdf')">Commendation</a>
+    </div>
+  </div>
+    </article>
+</section>
 
 <section class="container contact" id="contact">
   <div class="contact-info">
@@ -611,9 +671,9 @@
         <div class="contact-info-icon">
           <i class="fa-solid fa-location-dot"></i>
         </div>
-        <div class="contact-info-data">
+        <div>
           <h3>Address</h3>
-          <p>Mandalay, Myanmar</p>
+          <p class="description">Mandalay, Myanmar</p>
         </div>
       </div>
       <div class="contact-info-item">
@@ -622,8 +682,7 @@
         </div>
         <div class="contact-info-data">
           <h3>Email</h3>
-          <p>linnwaynandar91
-            <p>@gmail.com</p>
+          <p class="description">linnwaynandar91@gmail.com
           </p>
         </div>
       </div>
@@ -633,17 +692,18 @@
         </div>
         <div class="contact-info-data">
           <h3>Phone</h3>
-          <p>+959408982909</p>
+          <p class="description">+959408982909</p>
         </div>
       </div>
     </div>
   </div>
   <div class="contact-form">
     <form>
-      <input type="text" placeholder="Name" />
-      <input type="text" placeholder="Email" />
+      <input type="text" placeholder="Name" style="font-family: 'Poppins', sans-serif;"/>
+      <input type="text" placeholder="Email" style="font-family: 'Poppins', sans-serif;"/>
       <textarea
         name="message"
+        style="font-family: 'Poppins', sans-serif;"
         id=""
         cols="30"
         rows="10"
@@ -654,12 +714,11 @@
   </div>
 </section>
 
-    <footer class="footer">
+<footer class="footer">
   <p>&copy; 2025 Nway Nandar Lin All Right Reserved</p>
 </footer>
 
+<script src="script.js"></script>
 
-
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
